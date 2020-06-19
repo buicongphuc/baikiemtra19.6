@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.khungtren{
+    width:2000px;
+    height: 250px;
+}
+#hinhanh{
+    margin-left: 20px;
+    width: 302px;
+    height: 167px;
+    float: left;
+    transition: 0.5s;
+}
+.hinh1{
+    width: 440px;
+    height: 230px;
+    float: left;
+    margin-bottom: 10px;
+}
+.hinh2{
+    width: 440px;
+    height: 230px;
+    float: left;
+    margin-bottom: 10px;
+}
+.hinh3{
+    width: 440px;
+    height: 230px;
+    float: left;
+}
+h1{
+    font-size: 40px;
+    float: left;
+    margin-left: 100px;
+}
+#logo{
+    font-size: 40px;
+    transition: 0.5s;
+    padding: 30px 20px;
+}
+.header{
+    width: 2000px;
+    height: 167px;
+    left: 00;
+    position: fixed;
+    background-color: white;
+    top:0;
+    transition: 0.5s;
+}
+
+.noidung{
+    width: 1200px;
+    float: left;
+    padding-top: 50px;
+    margin-right: 30px;
+}
+.khungphai{
+    margin-top: 50px;
+    width: 440px;
+    height: 1000px;
+    float: left;
+}
+
+
+
+.menu{
+    left: 0;
+    height:85px;
+    width: 1900px;
+    background-color:green;
+    position: fixed;
+    top:170px;
+    transition: 0.5s;
+}
+ 
+
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    float:left ;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 30px;
+    background-color:green;
+    color: cornsilk;
+}
+.menu ul li:hover a{
+    background-color: grey;
+}
+.noidung a{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+
+.hieuung1{
+    position: fixed;
+    top:250px;
+ 
+}
+
+
+
+.nutnhan{
+    margin-top: 15px;
+}
+li.cha{
+    position: relative;
+}
+li button{
+    padding: 10px;
+    font-size: 20px;
+ }
+.khung{ 
+    position: absolute;
+    top:15px;
+    left: 100px;
+    z-index: 1;
+    width: 400px;
+    opacity: 0;
+}
+.khung input{
+    width: 250px;
+    height: 44px;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.hieuung{
+    left: 105px;
+    opacity: 1;
+    top:15px;
+    transition: 0.7s;
+}
